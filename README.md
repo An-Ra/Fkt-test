@@ -49,3 +49,7 @@
 ### **Login Expected Fail Cases**
 - Login without filling Email and Password
 
+### **Report Mochawesome**
+![image](https://github.com/user-attachments/assets/82d19741-d1a0-4bf0-b51b-a01707a38b76)
+
+
