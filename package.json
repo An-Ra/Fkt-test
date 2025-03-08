@@ -1,0 +1,22 @@
+{
+  "name": "folkatech-test-automation",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "npx mocha",
+    "clean": "rm -rf mochawesome-report",
+    "clean-test": "npm run clean && npx mocha",
+    "open-report": "open mochawesome-report/mochawesome.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "selenium-webdriver": "^4.29.0"
+  }
+}
